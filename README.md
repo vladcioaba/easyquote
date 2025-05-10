@@ -13,17 +13,17 @@ Azure deployment support
 Project Structure
 
 StockQuotationApi/
-├── Controllers/
-│   └── StockQuotesController.cs    # API endpoints for CRUD operations
-├── Models/
-│   └── StockQuote.cs               # Stock quotation data model
-├── Middleware/
-│   ├── ApiKeyAuthMiddleware.cs     # API key authentication
-│   └── RequestLoggingMiddleware.cs # Request logging
-├── Services/
-│   └── StockQuoteRepository.cs     # In-memory repository
-├── Program.cs                      # Application configuration
-└── appsettings.json                # Configuration settings
+\n├── Controllers/
+\n│   └── StockQuotesController.cs    # API endpoints for CRUD operations
+\n├── Models/
+\n│   └── StockQuote.cs               # Stock quotation data model
+\n├── Middleware/
+\n│   ├── ApiKeyAuthMiddleware.cs     # API key authentication
+\n│   └── RequestLoggingMiddleware.cs # Request logging
+\n├── Services/
+\n│   └── StockQuoteRepository.cs     # In-memory repository
+\n├── Program.cs                      # Application configuration
+\n└── appsettings.json                # Configuration settings
 
 API Endpoints
 Method	Endpoint	                Description

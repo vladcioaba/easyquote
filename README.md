@@ -11,6 +11,7 @@ Swagger/OpenAPI documentation
 Azure deployment support
 
 Project Structure
+
 StockQuotationApi/
 ├── Controllers/
 │   └── StockQuotesController.cs    # API endpoints for CRUD operations
